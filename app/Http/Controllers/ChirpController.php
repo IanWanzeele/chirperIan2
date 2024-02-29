@@ -15,7 +15,7 @@ class ChirpController extends Controller
      */
     public function index(): View
     {
-        return response('chirps.index');
+        return View('chirps.index');
     }
 
     /**
